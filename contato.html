@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Brasa Burger</title>
+  <meta name="description" content="Entre em contato com a Brasa Burger: endereço, telefone, e-mail e formulário de contato.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Brasa Burger - página inicial">
+        🔥 Brasa <span class="brasa-fire">Burger</span>
+        <span class="logo-tag">HAMBURGUERIA ARTESANAL</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="hamburgueres.html">Hambúrgueres</a></li>
+          <li><a href="acompanhamentos.html">Acompanhamentos</a></li>
+          <li><a href="sobremesas.html">Sobremesas</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="contato.html" aria-current="page">Contato</a></li>
+          <li><a href="orcamento.html">Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="a11y-controls" role="group" aria-label="Ajustar tamanho da fonte">
+          <button type="button" data-font="dec" aria-label="Diminuir fonte">A-</button>
+          <button type="button" data-font="reset" aria-label="Tamanho de fonte padrão">A</button>
+          <button type="button" data-font="inc" aria-label="Aumentar fonte">A+</button>
+        </div>
+        <button type="button" class="theme-toggle" aria-label="Ativar modo escuro">🌙</button>
+        <a href="delivery.html" class="cart-link" aria-label="Ver carrinho de delivery">
+          🛒
+          <span class="cart-count" data-cart-count aria-hidden="true">0</span>
+        </a>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu de navegação">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="hero" style="padding:3rem 0 2.5rem;">
+      <div class="container">
+        <span class="hero-eyebrow">FALE COM A GENTE</span>
+        <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Contato</h1>
+        <p class="hero-lead">Dúvidas, sugestões ou elogios? Estamos por aqui para conversar.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:2rem;">
+      <div class="container contato-grid">
+        <div class="reveal">
+          <h2>Informações</h2>
+          <div class="info-list">
+            <div class="info-item">
+              <span class="icon">📍</span>
+              <div>
+                <h4>Endereço</h4>
+                <p>Rua das Brasas, 250 — Vila Madalena, São Paulo/SP</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="icon">📞</span>
+              <div>
+                <h4>Telefone</h4>
+                <p>(11) 4002-8922</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="icon">✉️</span>
+              <div>
+                <h4>E-mail</h4>
+                <p>contato@brasaburger.com.br</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="icon">🕒</span>
+              <div>
+                <h4>Horário de funcionamento</h4>
+                <p>Terça a domingo, das 18h às 23h30</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="icon">📱</span>
+              <div>
+                <h4>Redes sociais</h4>
+                <p>
+                  <a href="https://instagram.com" target="_blank" rel="noopener" style="color:var(--brasa);font-weight:700;">Instagram</a> ·
+                  <a href="https://facebook.com" target="_blank" rel="noopener" style="color:var(--brasa);font-weight:700;">Facebook</a> ·
+                  <a href="https://wa.me/5511999998888" target="_blank" rel="noopener" style="color:var(--brasa);font-weight:700;">WhatsApp</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <form id="form-contato" class="form-card" novalidate>
+            <h2 class="mb-0" style="margin-bottom:1.2rem;">Envie uma mensagem</h2>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="c-nome">Nome <span class="req">*</span></label>
+                <input type="text" id="c-nome" name="nome" required minlength="2" maxlength="80" placeholder="Seu nome" autocomplete="name">
+              </div>
+              <div class="form-field">
+                <label for="c-email">E-mail <span class="req">*</span></label>
+                <input type="email" id="c-email" name="email" required placeholder="voce@email.com" autocomplete="email">
+              </div>
+              <div class="form-field">
+                <label for="c-telefone">Telefone <span class="req">*</span></label>
+                <input type="tel" id="c-telefone" name="telefone" required pattern="^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$" placeholder="(11) 91234-5678" autocomplete="tel">
+              </div>
+              <div class="form-field">
+                <label for="c-assunto">Assunto <span class="req">*</span></label>
+                <select id="c-assunto" name="assunto" required>
+                  <option value="" disabled selected>Selecione</option>
+                  <option value="elogio">Elogio</option>
+                  <option value="duvida">Dúvida</option>
+                  <option value="reclamacao">Reclamação</option>
+                  <option value="parceria">Parceria</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+              <div class="form-field full">
+                <label for="c-mensagem">Mensagem <span class="req">*</span></label>
+                <textarea id="c-mensagem" name="mensagem" rows="5" required minlength="10" maxlength="600" placeholder="Escreva sua mensagem aqui..."></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-2">Enviar mensagem</button>
+            <div class="form-msg" id="msg-contato" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo">Brasa <span>Burger</span></div>
+        <p>Hambúrgueres artesanais grelhados na brasa, feitos com ingredientes selecionados e muito amor pelo ofício.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram da Brasa Burger">📷</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook da Brasa Burger">📘</a>
+          <a href="https://wa.me/5511999998888" target="_blank" rel="noopener" aria-label="WhatsApp da Brasa Burger">💬</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Cardápio</h4>
+        <ul>
+          <li><a href="hamburgueres.html">Hambúrgueres</a></li>
+          <li><a href="acompanhamentos.html">Acompanhamentos</a></li>
+          <li><a href="sobremesas.html">Sobremesas</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="orcamento.html">Orçamento p/ Eventos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li>📍 Rua das Brasas, 250 — Vila Madalena, São Paulo/SP</li>
+          <li>📞 (11) 4002-8922</li>
+          <li>✉️ contato@brasaburger.com.br</li>
+          <li>🕒 Ter a Dom, 18h às 23h30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="mb-0">&copy; 2026 Brasa Burger — Hamburgueria Artesanal. Todos os direitos reservados. Site fictício, criado para fins de demonstração.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

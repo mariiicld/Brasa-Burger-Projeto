@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início | Brasa Burger</title>
+  <meta name="description" content="Brasa Burger — hambúrgueres artesanais grelhados na brasa, delivery e ambiente aconchegante.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Brasa Burger - página inicial">
+        🔥 Brasa <span class="brasa-fire">Burger</span>
+        <span class="logo-tag">HAMBURGUERIA ARTESANAL</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="hamburgueres.html">Hambúrgueres</a></li>
+          <li><a href="acompanhamentos.html">Acompanhamentos</a></li>
+          <li><a href="sobremesas.html">Sobremesas</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento.html">Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="a11y-controls" role="group" aria-label="Ajustar tamanho da fonte">
+          <button type="button" data-font="dec" aria-label="Diminuir fonte">A-</button>
+          <button type="button" data-font="reset" aria-label="Tamanho de fonte padrão">A</button>
+          <button type="button" data-font="inc" aria-label="Aumentar fonte">A+</button>
+        </div>
+        <button type="button" class="theme-toggle" aria-label="Ativar modo escuro">🌙</button>
+        <a href="delivery.html" class="cart-link" aria-label="Ver carrinho de delivery">
+          🛒
+          <span class="cart-count" data-cart-count aria-hidden="true">0</span>
+        </a>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu de navegação">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="hero-eyebrow">HAMBURGUERIA ARTESANAL DESDE 2014</span>
+          <h1>Carne no ponto.<br>Fogo de <em>verdade</em>.</h1>
+          <p class="hero-lead">Na Brasa Burger, cada hambúrguer é grelhado na brasa até o ponto exato, com ingredientes selecionados e receitas que a gente não cansa de aperfeiçoar.</p>
+          <div class="hero-actions">
+            <a href="cardapio.html" class="btn btn-primary">Ver Cardápio</a>
+            <a href="delivery.html" class="btn btn-secondary">Pedir Delivery</a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80" alt="Hambúrguer artesanal Brasa Classic com queijo derretido e molho da casa">
+          <div class="hero-badge">100% grelhado<br>na brasa</div>
+        </div>
+      </div>
+    </section>
+    <div class="flame-divider" aria-hidden="true"></div>
+
+    <section aria-labelledby="destaques-titulo">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">MAIS PEDIDOS</span>
+          <h2 id="destaques-titulo">Hambúrgueres em destaque</h2>
+          <p>Os favoritos de quem já provou a brasa da casa.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="product-card reveal">
+            <div class="product-media">
+              <span class="product-tag">Mais pedido</span>
+              <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?auto=format&fit=crop&w=700&q=80" alt="Brasa Bacon com bacon crocante e cebola caramelizada">
+            </div>
+            <div class="product-body">
+              <h3>Brasa Bacon</h3>
+              <p class="product-desc">Bacon extra crocante e cebola caramelizada para quem gosta de intensidade.</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 28,90</span>
+                <button class="btn btn-primary btn-sm" data-add="burg-bacon">Adicionar</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-media">
+              <span class="product-tag">Assinatura</span>
+              <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=700&q=80" alt="Brasa Especial com queijo gruyère e cebola crispy">
+            </div>
+            <div class="product-body">
+              <h3>Brasa Especial</h3>
+              <p class="product-desc">A assinatura da casa: ingredientes nobres e defumado lento na parrilla.</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 36,90</span>
+                <button class="btn btn-primary btn-sm" data-add="burg-especial">Adicionar</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-media">
+              <span class="product-tag">Para dois</span>
+              <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=700&q=80" alt="Brasa Duplo com dois discos de carne grelhados">
+            </div>
+            <div class="product-body">
+              <h3>Brasa Duplo</h3>
+              <p class="product-desc">Dois discos de carne grelhados na brasa para quem tem fome de verdade.</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 34,90</span>
+                <button class="btn btn-primary btn-sm" data-add="burg-duplo">Adicionar</button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="text-center mt-2">
+          <a href="hamburgueres.html" class="btn btn-dark">Ver todos os hambúrgueres</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt" aria-labelledby="porque-titulo">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">NOSSOS DIFERENCIAIS</span>
+          <h2 id="porque-titulo">Por que escolher a Brasa Burger?</h2>
+        </div>
+        <div class="grid grid-4">
+          <div class="feature-card reveal">
+            <span class="icon">🔥</span>
+            <h3>Grelha na brasa</h3>
+            <p>Carne grelhada em brasa de carvão, no ponto certo, com sabor defumado natural.</p>
+          </div>
+          <div class="feature-card reveal">
+            <span class="icon">🥩</span>
+            <h3>Blend exclusivo</h3>
+            <p>Blend de carnes desenvolvido pela nossa cozinha, moído fresco todos os dias.</p>
+          </div>
+          <div class="feature-card reveal">
+            <span class="icon">🌾</span>
+            <h3>Pão artesanal</h3>
+            <p>Brioche macio, feito por padaria parceira exclusivamente para a Brasa Burger.</p>
+          </div>
+          <div class="feature-card reveal">
+            <span class="icon">🛵</span>
+            <h3>Delivery rápido</h3>
+            <p>Pedido simulado direto pelo site, com acompanhamento do carrinho em tempo real.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="sobre-home-titulo">
+      <div class="container historia-wrap">
+        <div class="reveal">
+          <span class="eyebrow" style="color:var(--brasa);font-weight:800;display:block;margin-bottom:.5rem;">NOSSA ESSÊNCIA</span>
+          <h2 id="sobre-home-titulo">Uma hamburgueria que nasceu do fogo e da teimosia</h2>
+          <p>Começamos em 2014 com uma grelha, um food truck e a vontade de fazer o melhor hambúrguer da vizinhança. Hoje somos uma casa cheia, mas o processo continua o mesmo: fogo de carvão, ingredientes frescos e muito carinho em cada etapa.</p>
+          <a href="sobre.html" class="btn btn-secondary">Conheça nossa história</a>
+        </div>
+        <div class="historia-img reveal">
+          <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=800&q=80" alt="Interior aconchegante da hamburgueria Brasa Burger">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt" aria-labelledby="ambiente-home-titulo">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">O ESPAÇO</span>
+          <h2 id="ambiente-home-titulo">Um ambiente feito para ficar</h2>
+          <p>Decoração industrial, luz quente e aquele cheirinho de churrasco no ar.</p>
+        </div>
+        <div class="galeria-grid">
+          <div class="galeria-item big"><img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80" alt="Salão principal da Brasa Burger"></div>
+          <div class="galeria-item"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=500&q=80" alt="Mesas de madeira da hamburgueria"></div>
+          <div class="galeria-item"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=500&q=80" alt="Balcão de atendimento"></div>
+        </div>
+        <div class="text-center mt-2">
+          <a href="ambiente.html" class="btn btn-dark">Ver o ambiente completo</a>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="qr-titulo">
+      <div class="container">
+        <div class="qr-section">
+          <div class="qr-box">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&color=1a1410&data=https://brasaburger.com.br/cardapio.html" alt="QR Code que direciona para o cardápio digital da Brasa Burger" width="190" height="190">
+          </div>
+          <div>
+            <span class="eyebrow" style="color:var(--dourado);font-weight:800;display:block;margin-bottom:.5rem;">ESTÁ NA BRASA BURGER?</span>
+            <h2 id="qr-titulo">Aponte a câmera para o QR Code e consulte nosso cardápio</h2>
+            <p>Disponível em todas as mesas do restaurante — sem precisar baixar aplicativo nenhum.</p>
+            <ul class="qr-steps">
+              <li><span class="num">1</span> Abra a câmera do seu celular.</li>
+              <li><span class="num">2</span> Aponte para o QR Code na sua mesa.</li>
+              <li><span class="num">3</span> Toque no link para abrir o cardápio digital.</li>
+            </ul>
+            <p style="font-size:0.82rem;margin-top:1rem;">O QR Code é apenas para consulta — os pedidos são feitos com nossa equipe ou pelo delivery do site.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="cta-banda">
+          <div>
+            <h2>Com fome agora?</h2>
+            <p>Monte seu pedido e receba a Brasa Burger no conforto da sua casa.</p>
+          </div>
+          <a href="delivery.html" class="btn btn-dark">Pedir Delivery</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo">Brasa <span>Burger</span></div>
+        <p>Hambúrgueres artesanais grelhados na brasa, feitos com ingredientes selecionados e muito amor pelo ofício.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram da Brasa Burger">📷</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook da Brasa Burger">📘</a>
+          <a href="https://wa.me/5511999998888" target="_blank" rel="noopener" aria-label="WhatsApp da Brasa Burger">💬</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Cardápio</h4>
+        <ul>
+          <li><a href="hamburgueres.html">Hambúrgueres</a></li>
+          <li><a href="acompanhamentos.html">Acompanhamentos</a></li>
+          <li><a href="sobremesas.html">Sobremesas</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="orcamento.html">Orçamento p/ Eventos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li>📍 Rua das Brasas, 250 — Vila Madalena, São Paulo/SP</li>
+          <li>📞 (11) 4002-8922</li>
+          <li>✉️ contato@brasaburger.com.br</li>
+          <li>🕒 Ter a Dom, 18h às 23h30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="mb-0">&copy; 2026 Brasa Burger — Hamburgueria Artesanal. Todos os direitos reservados. Site fictício, criado para fins de demonstração.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
