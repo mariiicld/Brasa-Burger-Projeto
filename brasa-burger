@@ -9,10 +9,8 @@ brasa-burger
 ├── ambiente.html
 ├── contato.html
 ├── orcamento.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+├── style.css
+├── script.js
 └── img/
     ├── hamburgueres/
     ├── acompanhamentos/
