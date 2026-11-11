@@ -1,37 +1,52 @@
-# PROJETO: BRASA BURGER - SITE INSTITUCIONAL
+# Brasa Burger — Site institucional
 
-### Integrantes:
+### Sobre o projeto
+O Brasa Burger é um projeto acadêmico de desenvolvimento Front-End para Web. O site apresenta uma hamburgueria fictícia, sua proposta, cardápio, ambiente, agenda, eventos, localização e canais de contato.
 
-    Mariana Calderari - RGM: 48100072
+O projeto foi pensado para que o visitante conheça a hamburgueria e consulte as informações disponíveis. No estabelecimento, o QR Code direciona ao cardápio digital apenas para consulta; o pedido é realizado com a equipe presencialmente. O site não possui carrinho, checkout nem sistema de delivery.
+### Integrante
+    Mariana Calderari — RGM - 48100072
 
-### Descrição:
-Website responsivo desenvolvido para a hamburgueria artesanal "Brasa Burger". O projeto apresenta o cardápio da casa, ambiente, formulário de contato e sistema de solicitação de orçamento para eventos.
+### Tecnologias
+- HTML5: estrutura e conteúdo das páginas.
+- CSS3: camada de apresentação (arquivo css/style.css previsto na estrutura do projeto).
+- JavaScript: interações de acessibilidade, menu responsivo e validação demonstrativa dos formulários.
 
-### Tecnologias Utilizadas:
-- HTML5 Semântico
-- CSS3 (Flexbox & CSS Grid, Variáveis CSS)
-- JavaScript Vanilla (ES6+)
+### Páginas
+1. index.html — página inicial.
+2. sobre.html — apresentação da hamburgueria.
+3. cardapio.html — cardápio.
+4. ambiente.html — apresentação do espaço.
+5. eventos.html — informações sobre eventos.
+6. agenda.html — agenda da casa.
+7. localizacao.html — endereço e horários.
+8. faq.html — perguntas frequentes.
+9. contato.html — informações e formulário de contato.
+10. orcamento.html — formulário para solicitar orçamento de eventos.
 
-### Estrutura de Pastas:
-/brasa-burguer-ori
-│── index.html
-│── cardapio.html
-│── ambiente.html
-│── contato.html
-│── orcamento.html
-│── css/
+### Estrutura de diretórios
+brasa-burger/
+├── index.html
+├── sobre.html
+├── cardapio.html
+├── ambiente.html
+├── eventos.html
+├── agenda.html
+├── localizacao.html
+├── faq.html
+├── contato.html
+├── orcamento.html
+├── css/
 │   └── style.css
-│── js/
+├── js/
 │   └── script.js
-│── img/
+├── img/
 │   ├── hamburgueres/
 │   ├── acompanhamentos/
 │   ├── sobremesas/
 │   └── ambiente/
 └── docs/
-    ├── README.txt
-    └── diario-de-bordo.txt
-
-### Como Executar
-1. Extraia esta pasta.
-2. Abra "index.html" no navegador (duplo clique) OU, no VS Code, use a extensão
+    ├── README.md
+    ├── planejamento.docx
+    ├── diario_de_bordo.docx
+    └── relatorio_comparativo_hospedagem.docx
