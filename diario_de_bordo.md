@@ -4,7 +4,7 @@
 **Instituição:** Universidade Cidade de São Paulo — UNICID  
 **Professor:** Prof. Me. Gabriel Rosa Paz  
 **Projeto:** Brasa Burger — Site de Hamburgueria  
-**Integrante:** Mariana Calderari  
+**Integrante:** Mariana Calderari  - RGM - 48100072
 
 ## Registros de desenvolvimento
 
