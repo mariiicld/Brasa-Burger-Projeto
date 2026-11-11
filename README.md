@@ -31,3 +31,7 @@ Website responsivo desenvolvido para a hamburgueria artesanal "Brasa Burger". O 
 └── docs/
     ├── README.txt
     └── diario-de-bordo.txt
+
+### Como Executar
+1. Extraia esta pasta.
+2. Abra "index.html" no navegador (duplo clique) OU, no VS Code, use a extensão
