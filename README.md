@@ -24,7 +24,7 @@ O projeto foi pensado para que o visitante conheça a hamburgueria e consulte as
 9. contato.html — informações e formulário de contato.
 10. orcamento.html — formulário para solicitar orçamento de eventos.
 
-'''
+
 brasa-burger/
 │
 ├── index.html
@@ -59,4 +59,3 @@ brasa-burger/
     ├── planejamento.docx
     ├── diario_de_bordo.docx
     └── relatorio_comparativo_hospedagem.docx
-'''
