@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio | Brasa Burger</title>
+  <meta name="description" content="Hambúrgueres, acompanhamentos e sobremesas da Brasa Burger.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    html{scroll-behavior:smooth}
+    .menu-tabs{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.4rem}
+    .menu-tabs a{padding:.55rem 1.1rem;border-radius:999px;border:1.5px solid currentColor;font-weight:700;font-size:.92rem;text-decoration:none;color:inherit;opacity:.9}
+    .menu-tabs a:hover,.menu-tabs a:focus-visible{opacity:1;background:rgba(255,255,255,.12)}
+    .menu-emoji{width:100%;height:100%;min-height:200px;align-items:center;justify-content:center;font-size:4.5rem;background:linear-gradient(135deg,#3a2a1e,#6b3a1a);display:flex}
+    .product-media img+.menu-emoji{position:absolute;inset:0}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Brasa Burger - página inicial">
+        Brasa <span class="brasa-fire">Burger</span>
+        <span class="logo-tag">HAMBURGUERIA ARTESANAL</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="cardapio.html" aria-current="page">Cardápio</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="localizacao.html">Localização</a></li>
+          <li><a href="faq.html">Dúvidas</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento.html">Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="a11y-controls" role="group" aria-label="Ajustar tamanho da fonte">
+          <button type="button" data-font="dec" aria-label="Diminuir fonte">A-</button>
+          <button type="button" data-font="reset" aria-label="Tamanho de fonte padrão">A</button>
+          <button type="button" data-font="inc" aria-label="Aumentar fonte">A+</button>
+        </div>
+        <button type="button" class="theme-toggle" aria-label="Ativar modo escuro">🌙</button>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu de navegação">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" style="padding:3rem 0 2.5rem;">
+      <div class="container">
+        <span class="hero-eyebrow">CARDÁPIO</span>
+        <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Cardápio da Casa</h1>
+        <p class="hero-lead">Dá uma olhada no que servimos no salão. O pedido é feito diretamente com a nossa equipe na mesa.</p>
+        <nav class="menu-tabs" aria-label="Categorias do cardápio">
+          <a href="#hamburgueres">🍔 Hambúrgueres</a>
+          <a href="#acompanhamentos">🍟 Acompanhamentos</a>
+          <a href="#sobremesas">🍨 Sobremesas</a>
+        </nav>
+      </div>
+    </section>
+
+    <section id="hamburgueres" class="" style="scroll-margin-top:5rem;">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">GRELHADOS NA BRASA</span>
+          <h2>Hambúrgueres</h2>
+          <p>Seis receitas, um só compromisso: carne suculenta, no ponto certo, sempre.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="product-card">
+            <div class="product-media"><img src="img/hamburgueres/classic.jfif" alt="Brasa Classic" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🍔</div></div>
+            <div class="product-body">
+              <h3>Brasa Classic</h3>
+              <p class="product-desc">Blend 160g na brasa, queijo prato, alface, tomate e maionese da casa.</p>
+              <div class="product-footer"><span class="product-price">R$ 26,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Mais pedido</span><img src="img/hamburgueres/bacon.jpg" alt="Brasa Bacon" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🥓</div></div>
+            <div class="product-body">
+              <h3>Brasa Bacon</h3>
+              <p class="product-desc">Bacon extra crocante e cebola caramelizada para quem gosta de intensidade.</p>
+              <div class="product-footer"><span class="product-price">R$ 28,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><img src="img/hamburgueres/cheddar.png" alt="Brasa Cheddar" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🧀</div></div>
+            <div class="product-body">
+              <h3>Brasa Cheddar</h3>
+              <p class="product-desc">Cheddar cremoso, cebola crispy e molho barbecue defumado.</p>
+              <div class="product-footer"><span class="product-price">R$ 30,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Para dois</span><img src="img/hamburgueres/hamburguer_duplo.jfif" alt="Brasa Duplo" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🍔</div></div>
+            <div class="product-body">
+              <h3>Brasa Duplo</h3>
+              <p class="product-desc">Dois discos de carne grelhados na brasa para quem tem fome de verdade.</p>
+              <div class="product-footer"><span class="product-price">R$ 34,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Assinatura</span><img src="img/hamburgueres/cebola.jfif" alt="Brasa Especial" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">⭐</div></div>
+            <div class="product-body">
+              <h3>Brasa Especial</h3>
+              <p class="product-desc">A assinatura da casa: ingredientes nobres e defumado lento na parrilla.</p>
+              <div class="product-footer"><span class="product-price">R$ 36,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Vegetariano</span><img src="img/hamburgueres/vegan.jfif" alt="Brasa Veggie" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🌱</div></div>
+            <div class="product-body">
+              <h3>Brasa Veggie</h3>
+              <p class="product-desc">Hambúrguer de grão-de-bico e legumes grelhado na brasa, com molho de ervas.</p>
+              <div class="product-footer"><span class="product-price">R$ 29,90</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="acompanhamentos" class="section-alt" style="scroll-margin-top:5rem;">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">PARA COMPLETAR</span>
+          <h2>Acompanhamentos</h2>
+          <p>Batatas, onion rings, nuggets e molhos especiais.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="product-card">
+            <div class="product-media"><img src="img/acompanhamentos/batata.jpg" alt="Batata Frita" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🍟</div></div>
+            <div class="product-body">
+              <h3>Batata Frita</h3>
+              <p class="product-desc">Porção crocante com sal defumado e páprica.</p>
+              <div class="product-footer"><span class="product-price">R$ 18,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><img src="img/acompanhamentos/onion.jfif" alt="Onion Rings" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🧅</div></div>
+            <div class="product-body">
+              <h3>Onion Rings</h3>
+              <p class="product-desc">Anéis de cebola empanados, servidos com molho barbecue.</p>
+              <div class="product-footer"><span class="product-price">R$ 21,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><img src="img/acompanhamentos/nuggets.webp" alt="Nuggets Artesanais" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🍗</div></div>
+            <div class="product-body">
+              <h3>Nuggets Artesanais</h3>
+              <p class="product-desc">Frango empanado na casa, com molho mostarda e mel.</p>
+              <div class="product-footer"><span class="product-price">R$ 19,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><img src="img/acompanhamentos/molhos.jfif" alt="Molhos Especiais" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🥫</div></div>
+            <div class="product-body">
+              <h3>Molhos Especiais</h3>
+              <p class="product-desc">Maionese da casa, barbecue defumado e molho picante.</p>
+              <div class="product-footer"><span class="product-price">R$ 6,00</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobremesas" class="" style="scroll-margin-top:5rem;">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">CHAVE DE OURO</span>
+          <h2>Sobremesas</h2>
+          <p>Milk-shakes cremosos, brownie quentinho e sorvetes para fechar a refeição.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="product-card">
+            <div class="product-media"><img src="img/sobremesas/brownie.jpg" alt="Brownie com Sorvete" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🍫</div></div>
+            <div class="product-body">
+              <h3>Brownie com Sorvete</h3>
+              <p class="product-desc">Brownie quentinho de chocolate com bola de sorvete de creme.</p>
+              <div class="product-footer"><span class="product-price">R$ 19,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><img src="img/sobremesas/milkshake.webp" alt="Milk-shake" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🥤</div></div>
+            <div class="product-body">
+              <h3>Milk-shake</h3>
+              <p class="product-desc">Chocolate, morango ou baunilha. Cremoso e bem gelado.</p>
+              <div class="product-footer"><span class="product-price">R$ 18,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><img src="img/sobremesas/sundae.jfif" alt="Sundae" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🍨</div></div>
+            <div class="product-body">
+              <h3>Sundae</h3>
+              <p class="product-desc">Sorvete de creme com calda de chocolate ou morango.</p>
+              <div class="product-footer"><span class="product-price">R$ 16,90</span></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><img src="img/sobremesas/sorvete.jpg" alt="Sorvete" loading="lazy"><div class="menu-emoji" style="display:none" aria-hidden="true">🍦</div></div>
+            <div class="product-body">
+              <h3>Sorvete</h3>
+              <p class="product-desc">Duas bolas à escolha, com cobertura crocante.</p>
+              <div class="product-footer"><span class="product-price">R$ 12,90</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="cta-banda">
+          <div>
+            <h2>Vem conhecer a casa</h2>
+            <p>Veja o ambiente ou peça um orçamento para o seu evento.</p>
+          </div>
+          <a href="ambiente.html" class="btn btn-dark">Ver o ambiente</a>
+        </div>
+      </div>
+    </section>
+</main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo">Brasa <span>Burger</span></div>
+        <p>Hambúrgueres artesanais grelhados na brasa, num ambiente feito para ficar.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram da Brasa Burger">📷</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook da Brasa Burger">📘</a>
+          <a href="https://wa.me/5511999998888" target="_blank" rel="noopener" aria-label="WhatsApp da Brasa Burger">💬</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Fale com a gente</h4>
+        <ul>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="localizacao.html">Como Chegar</a></li>
+          <li><a href="faq.html">Dúvidas Frequentes</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento.html">Orçamento p/ Eventos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li>📍 Rua do Brasa Burger — Vila Madalena, São Paulo/SP</li>
+          <li>📞 (11) 4002-8922</li>
+          <li>✉️ contato@brasaburger.com.br</li>
+          <li>🕒 Ter a Dom, 18h às 23h30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="mb-0">&copy; 2026 Brasa Burger — Hamburgueria Artesanal. Todos os direitos reservados. Site fictício, criado para fins de demonstração.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

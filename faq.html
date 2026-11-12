@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dúvidas Frequentes | Brasa Burger</title>
+  <meta name="description" content="Perguntas frequentes sobre a Brasa Burger: reservas, cardápio, eventos e acessibilidade.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .faq-list{max-width:820px;margin:0 auto;display:grid;gap:.8rem}
+    .faq-list details{border:1.5px solid rgba(128,128,128,.35);border-radius:12px;padding:.2rem 1.1rem}
+    .faq-list summary{cursor:pointer;font-weight:700;padding:.9rem 0;list-style-position:outside}
+    .faq-list details[open] summary{color:var(--brasa,#d2531a)}
+    .faq-list p{margin:0 0 1rem}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Brasa Burger - página inicial">
+        Brasa <span class="brasa-fire">Burger</span>
+        <span class="logo-tag">HAMBURGUERIA ARTESANAL</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="localizacao.html">Localização</a></li>
+          <li><a href="faq.html" aria-current="page">Dúvidas</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento.html">Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="a11y-controls" role="group" aria-label="Ajustar tamanho da fonte">
+          <button type="button" data-font="dec" aria-label="Diminuir fonte">A-</button>
+          <button type="button" data-font="reset" aria-label="Tamanho de fonte padrão">A</button>
+          <button type="button" data-font="inc" aria-label="Aumentar fonte">A+</button>
+        </div>
+        <button type="button" class="theme-toggle" aria-label="Ativar modo escuro">🌙</button>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu de navegação">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" style="padding:3rem 0 2.5rem;">
+      <div class="container">
+        <span class="hero-eyebrow">TIRE SUAS DÚVIDAS</span>
+        <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Perguntas Frequentes</h1>
+        <p class="hero-lead">As respostas para o que mais perguntam sobre a casa, o cardápio e os eventos.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">FAQ</span>
+          <h2>Dúvidas mais comuns</h2>
+          <p>Não encontrou o que procurava? Fale com a gente.</p>
+        </div>
+        <div class="faq-list">
+          <details><summary>Preciso reservar mesa?</summary><p>Não é obrigatório, mas recomendamos reservar nos fins de semana e para grupos. A reserva é feita pelo telefone ou pelo formulário de contato.</p></details>
+          <details><summary>Como faço o pedido?</summary><p>O pedido é feito diretamente com a nossa equipe na mesa. O QR Code das mesas abre o cardápio digital apenas para consulta.</p></details>
+          <details><summary>O site tem delivery ou venda online?</summary><p>Não. Este site serve para você conhecer o ambiente e o cardápio, falar com a gente e pedir orçamento para eventos.</p></details>
+          <details><summary>Vocês têm opção vegetariana?</summary><p>Sim, o Brasa Veggie é feito com grão-de-bico e legumes. Fale com a equipe sobre outras adaptações.</p></details>
+          <details><summary>Posso comemorar meu aniversário aí?</summary><p>Pode! Veja a página de eventos e envie o formulário de orçamento com a data, o horário e o número de pessoas.</p></details>
+          <details><summary>Qual é o número mínimo de pessoas para um evento?</summary><p>O formulário de orçamento aceita grupos a partir de 5 pessoas. Valores e capacidade são combinados caso a caso.</p></details>
+          <details><summary>Aceitam crianças e pets?</summary><p>Crianças são bem-vindas, com cadeirões sob solicitação. Pets de pequeno e médio porte ficam na área externa.</p></details>
+          <details><summary>Quais são os horários?</summary><p>Terça a domingo, das 18h às 23h30. Fechamos às segundas.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="cta-banda">
+          <div>
+            <h2>Ainda com dúvida?</h2>
+            <p>Mande uma mensagem e respondemos o quanto antes.</p>
+          </div>
+          <a href="contato.html" class="btn btn-dark">Ir para contato</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo">Brasa <span>Burger</span></div>
+        <p>Hambúrgueres artesanais grelhados na brasa, num ambiente feito para ficar.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram da Brasa Burger">📷</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook da Brasa Burger">📘</a>
+          <a href="https://wa.me/5511999998888" target="_blank" rel="noopener" aria-label="WhatsApp da Brasa Burger">💬</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="ambiente.html">Ambiente</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Fale com a gente</h4>
+        <ul>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="localizacao.html">Como Chegar</a></li>
+          <li><a href="faq.html">Dúvidas Frequentes</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento.html">Orçamento p/ Eventos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li>📍 Rua do Brasa Burger — Vila Madalena, São Paulo/SP</li>
+          <li>📞 (11) 4002-8922</li>
+          <li>✉️ contato@brasaburger.com.br</li>
+          <li>🕒 Ter a Dom, 18h às 23h30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="mb-0">&copy; 2026 Brasa Burger — Hamburgueria Artesanal. Todos os direitos reservados. Site fictício, criado para fins de demonstração.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
