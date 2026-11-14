@@ -25,7 +25,10 @@ O projeto foi pensado para que o visitante conheça a hamburgueria e consulte as
 10. orcamento.html — formulário para solicitar orçamento de eventos.
 
 ### Estrutura de diretórios
+
+```text
 brasa-burger/
+│
 ├── index.html
 ├── sobre.html
 ├── cardapio.html
@@ -36,17 +39,22 @@ brasa-burger/
 ├── faq.html
 ├── contato.html
 ├── orcamento.html
+│
 ├── css/
 │   └── style.css
+│
 ├── js/
 │   └── script.js
+│
 ├── img/
 │   ├── hamburgueres/
 │   ├── acompanhamentos/
 │   ├── sobremesas/
 │   └── ambiente/
+│
 └── docs/
     ├── README.md
     ├── planejamento.docx
     ├── diario_de_bordo.docx
     └── relatorio_comparativo_hospedagem.docx
+```
